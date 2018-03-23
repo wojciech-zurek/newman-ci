@@ -11,7 +11,7 @@ Docker hub url:
 Example .gitlab-ci.yml:
 
 ```
-...your pipline config...
+...your pipeline config...
 stages:
   - postman-test
 
