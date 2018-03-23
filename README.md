@@ -34,3 +34,9 @@ Docker Pull Command
 ```
 docker pull wojciechzurek/newman-ci
 ```
+
+Docker Run Command
+
+```
+docker run wojciechzurek/newman-ci newman --help
+```
