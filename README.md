@@ -8,6 +8,7 @@ This image does not have an entrypoint so it can be used in GitLab CI Pipeline.
 Docker hub url: 
  - [wojciechzurek/newman-ci](https://hub.docker.com/r/wojciechzurek/newman-ci/)
 
+#### Gitlab CI
 Example .gitlab-ci.yml:
 
 ```
@@ -24,4 +25,12 @@ postman-test:
     when: always
     paths:
       - newman-results.html
+```
+
+#### Docker
+
+Docker Pull Command
+
+```
+docker pull wojciechzurek/newman-ci
 ```
